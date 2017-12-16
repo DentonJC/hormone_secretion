@@ -34,7 +34,7 @@ def Analytic(a, b, k, x0, h, period):
     X, Y = [], []
     while t <= period:
         y = func2(a, b, k, t, x0)
-        t = t + h
+        t += h
         Y.append(y)
         X.append(t)
     return X, Y

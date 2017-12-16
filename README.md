@@ -9,6 +9,10 @@ The secretion of hormones into the blood is often a periodic activity.  If a hor
 
 where x(t) is the amount of hormone in the blood at time t, α is the average secretion rate, β is the amount of daily variation in the secretion, and k is a positive constant reflecting the rate at which the body removes hormones from the blood.  If α = β = 1, k = 2, and x0 = 10, solve for x(t).
 
+## Requirements
+- matplotlib
+- sklearn
+
 <img src="https://github.com/DentonJC/hormone_secretion/blob/master/etc/1.png" />
 
 <img src="https://github.com/DentonJC/hormone_secretion/blob/master/etc/2.png" />
