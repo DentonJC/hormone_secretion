@@ -1,14 +1,20 @@
+push.sh
+.gitignore
+/src/tmp
+/tmp
+/data/preprocessed/*
+
 # Byte-compiled / optimized / DLL files
-__pycache__/
+*/__pycache__/
 *.py[cod]
 *$py.class
+*.pyc
 
 # C extensions
 *.so
 
 # Distribution / packaging
 .Python
-env/
 build/
 develop-eggs/
 dist/
@@ -79,11 +85,10 @@ celerybeat-schedule
 # SageMath parsed files
 *.sage.py
 
-# dotenv
+# Environments
 .env
-
-# virtualenv
 .venv
+env/
 venv/
 ENV/
 
